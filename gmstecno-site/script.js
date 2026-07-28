@@ -144,7 +144,8 @@ const projects = {
       "images/projects/CO/CO_4.png",
       "images/projects/CO/CO_5.png",
       "images/projects/CO/CO_6.png",
-      "images/projects/CO/CO_7.png"
+      "images/projects/CO/CO_7.png",
+      "images/projects/CO/CO_8.png"
     ]
   },
   passgen: {
