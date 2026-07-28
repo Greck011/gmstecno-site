@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GmsTecno — Greivin Mora Solórzano | Desarrollador &amp; Soporte IT</title>
+<meta name="description" content="Portafolio de Greivin Mora Solórzano (GmsTecno). Desarrollo Java, C++, bases de datos y soporte IT/redes en Costa Rica.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== TERMINAL TOP BAR (nav) ===== -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="winlights"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+    <span class="topbar-path">greivin@gmstecno<span class="colon">:</span><span class="path">~</span><span class="colon">$</span></span>
+    <nav class="nav" id="nav">
+      <a href="#inicio" class="navlink">inicio</a>
+      <a href="#sobre-mi" class="navlink">whoami</a>
+      <a href="#skills" class="navlink">nmap --skills</a>
+      <a href="#portafolio" class="navlink">ls ~/proyectos</a>
+      <a href="#contacto" class="navlink">contacto</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="inicio">
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="terminal-window hero-terminal">
+      <div class="terminal-titlebar">
+        <div class="winlights"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+        <span class="terminal-title">bash — 92×24</span>
+      </div>
+      <div class="terminal-body" id="bootTerminal">
+        <p class="boot-line"><span class="prompt">greivin@gmstecno</span><span class="colon">:~$</span> <span class="typed" data-text="whoami"></span></p>
+      </div>
+    </div>
+
+    <div class="hero-status" aria-hidden="true">
+      <div class="status-pill"><span class="pulse-dot"></span> DISPONIBLE PARA PROYECTOS</div>
+      <div class="status-meta">
+        <span>UPTIME: <strong id="uptime">00:00:00</strong></span>
+        <span>UBICACIÓN: San Ramón, Alajuela</span>
+        <span>LATENCIA DE RESPUESTA: &lt; 24h</span>
+      </div>
+    </div>
+  </div>
+  <a href="#sobre-mi" class="scroll-cue" aria-label="Bajar a la siguiente sección">↓ scroll</a>
+</section>
+
+<!-- ===== SOBRE MI ===== -->
+<section class="section" id="sobre-mi">
+  <div class="section-inner">
+    <p class="eyebrow">// whoami</p>
+    <h2 class="section-title">Desarrollo aplicaciones y arreglo redes.<br><span class="accent-orange">Las dos cosas, en serio.</span></h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Soy <strong>Greivin Mora Solórzano</strong>, desarrollador de software y técnico en soporte IT, freelance bajo la marca <strong class="accent-cyan">GmsTecno</strong>, en San Ramón, Alajuela, Costa Rica.</p>
+        <p>Mi trabajo se mueve en dos capas: la de <strong>aplicaciones</strong> — Java (Swing, arquitectura MVC), C++, C#, MySQL — y la de <strong>infraestructura</strong> — redes LAN/WLAN, DHCP, TCP/IP, DNS, VPN. No es un combo típico, pero es justo lo que me permite entender un problema de punta a punta: desde el código hasta el cable que lo conecta a internet.</p>
+        <p>Diplomado en Informática (UNED, 2024) y Diplomado en Programación Java. Inglés B1, subiendo a B2.</p>
+      </div>
+      <div class="about-card">
+        <div class="terminal-window">
+          <div class="terminal-titlebar">
+            <div class="winlights"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+            <span class="terminal-title">stack.json</span>
+          </div>
+          <div class="terminal-body code-block">
+<pre><span class="tok-key">"lenguajes"</span>: [<span class="tok-str">"Java"</span>, <span class="tok-str">"C++"</span>, <span class="tok-str">"C#"</span>],
+<span class="tok-key">"apps"</span>: [<span class="tok-str">"Swing"</span>, <span class="tok-str">"MVC"</span>, <span class="tok-str">"jpackage"</span>],
+<span class="tok-key">"datos"</span>: [<span class="tok-str">"MySQL"</span>],
+<span class="tok-key">"redes"</span>: [<span class="tok-str">"LAN/WLAN"</span>, <span class="tok-str">"DHCP"</span>,
+           <span class="tok-str">"TCP/IP"</span>, <span class="tok-str">"DNS"</span>, <span class="tok-str">"VPN"</span>],
+<span class="tok-key">"entornos"</span>: [<span class="tok-str">"macOS"</span>, <span class="tok-str">"Windows"</span>],
+<span class="tok-key">"idioma"</span>: <span class="tok-str">"B1 → B2 EN"</span></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS COMO PORT SCAN ===== -->
+<section class="section section-alt" id="skills">
+  <div class="section-inner">
+    <p class="eyebrow">// nmap -sV --skills greivin</p>
+    <h2 class="section-title">Escaneo de <span class="accent-green">puertos abiertos</span></h2>
+    <p class="section-sub">Starting Nmap ( gmstecno.dev ) — todos los servicios están arriba y respondiendo.</p>
+
+    <div class="terminal-window scan-window">
+      <div class="terminal-titlebar">
+        <div class="winlights"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+        <span class="terminal-title">nmap-scan.log</span>
+      </div>
+      <div class="terminal-body">
+        <table class="scan-table">
+          <thead>
+            <tr><th>PORT</th><th>STATE</th><th>SERVICE</th><th>VERSION</th></tr>
+          </thead>
+          <tbody id="scanTableBody">
+            <tr><td>8080/tcp</td><td class="state-open">open</td><td>java-backend</td><td>Swing / MVC / jpackage</td></tr>
+            <tr><td>3306/tcp</td><td class="state-open">open</td><td>mysql</td><td>diseño de esquemas &amp; consultas</td></tr>
+            <tr><td>443/tcp</td><td class="state-open">open</td><td>cpp-tools</td><td>utilitarios de sistema (Windows)</td></tr>
+            <tr><td>22/tcp</td><td class="state-open">open</td><td>it-support</td><td>diagnóstico remoto &amp; local</td></tr>
+            <tr><td>67/udp</td><td class="state-open">open</td><td>dhcp</td><td>configuración de redes LAN/WLAN</td></tr>
+            <tr><td>53/udp</td><td class="state-open">open</td><td>dns</td><td>resolución &amp; troubleshooting</td></tr>
+            <tr><td>1194/udp</td><td class="state-open">open</td><td>vpn</td><td>configuración &amp; acceso remoto</td></tr>
+            <tr><td>443/tcp</td><td class="state-open">open</td><td>encryption</td><td>AES-256-GCM / PBKDF2</td></tr>
+          </tbody>
+        </table>
+        <p class="scan-footer">Nmap done: servicios activos en 0.4s. <span class="accent-green">8 puertos abiertos</span>, 0 filtrados.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTAFOLIO ===== -->
+<section class="section" id="portafolio">
+  <div class="section-inner">
+    <p class="eyebrow">// ls -la ~/proyectos</p>
+    <h2 class="section-title">Proyectos <span class="accent-orange">empaquetados</span> y funcionando</h2>
+    <p class="section-sub">Cada uno corre en Mac y Windows, con instalador propio. Clic en una tarjeta para ver el detalle.</p>
+
+    <div class="portfolio-grid" id="portfolioGrid">
+
+      <article class="proj-card" data-project="facturador">
+        <div class="proj-thumb thumb-orange">
+          <div class="thumb-window">
+            <div class="thumb-titlebar"><span></span><span></span><span></span></div>
+            <div class="thumb-icon">🧾</div>
+          </div>
+        </div>
+        <div class="proj-info">
+          <h3>FacturadorG</h3>
+          <p>Sistema de facturación de escritorio en Java Swing.</p>
+          <div class="tag-row">
+            <span class="tag">Java</span><span class="tag">MVC</span><span class="tag">Apache POI</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj-card" data-project="conversor">
+        <div class="proj-thumb thumb-cyan">
+          <div class="thumb-window">
+            <div class="thumb-titlebar"><span></span><span></span><span></span></div>
+            <div class="thumb-icon">🔁</div>
+          </div>
+        </div>
+        <div class="proj-info">
+          <h3>Conversor</h3>
+          <p>Conversor de monedas y medidas con historial exportable.</p>
+          <div class="tag-row">
+            <span class="tag">Java</span><span class="tag">JTable</span><span class="tag">Excel Export</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj-card" data-project="passgen">
+        <div class="proj-thumb thumb-green">
+          <div class="thumb-window">
+            <div class="thumb-titlebar"><span></span><span></span><span></span></div>
+            <div class="thumb-icon">🔐</div>
+          </div>
+        </div>
+        <div class="proj-info">
+          <h3>Password Generator Pro</h3>
+          <p>Gestor de contraseñas cifrado, generación y almacenamiento seguro.</p>
+          <div class="tag-row">
+            <span class="tag">Java</span><span class="tag">AES-256-GCM</span><span class="tag">PBKDF2</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj-card" data-project="sysmaint">
+        <div class="proj-thumb thumb-orange">
+          <div class="thumb-window">
+            <div class="thumb-titlebar"><span></span><span></span><span></span></div>
+            <div class="thumb-icon">🛠️</div>
+          </div>
+        </div>
+        <div class="proj-info">
+          <h3>System Maintenance Tool</h3>
+          <p>Utilitario en C++ para Windows con chequeo de salud SMART del disco.</p>
+          <div class="tag-row">
+            <span class="tag">C++</span><span class="tag">Inno Setup</span><span class="tag">Diagnóstico</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== LIGHTBOX / VISOR DE IMAGENES ===== -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+  <div class="lightbox-panel">
+    <div class="terminal-window lightbox-window">
+      <div class="terminal-titlebar">
+        <div class="winlights"><span class="dot red" id="lbClose"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+        <span class="terminal-title" id="lbFileName">proyecto.png</span>
+        <button class="lb-close-btn" id="lbCloseBtn" aria-label="Cerrar">✕</button>
+      </div>
+      <div class="lightbox-body">
+        <button class="lb-nav lb-prev" id="lbPrev" aria-label="Anterior">‹</button>
+        <div class="lightbox-image-wrap">
+          <div class="lightbox-image" id="lightboxImage">
+            <img id="lightboxImg" alt="" />
+            <span class="lightbox-icon-fallback" id="lightboxIconFallback"></span>
+          </div>
+        </div>
+        <button class="lb-nav lb-next" id="lbNext" aria-label="Siguiente">›</button>
+      </div>
+      <div class="lightbox-caption">
+        <h3 id="lbTitle">Título</h3>
+        <p id="lbDesc">Descripción</p>
+        <div class="tag-row" id="lbTags"></div>
+        <p class="lb-hint">📸 Reemplazá esta vista con capturas reales en <code>/images/projects/</code></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== CONTACTO ===== -->
+<section class="section section-alt" id="contacto">
+  <div class="section-inner">
+    <p class="eyebrow">// contacto --enviar</p>
+    <h2 class="section-title">Hablemos de tu <span class="accent-cyan">proyecto</span></h2>
+
+    <div class="contact-grid">
+      <div class="terminal-window contact-terminal">
+        <div class="terminal-titlebar">
+          <div class="winlights"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+          <span class="terminal-title">contact.sh</span>
+        </div>
+        <div class="terminal-body">
+          <p class="boot-line static-line"><span class="prompt">greivin@gmstecno</span><span class="colon">:~$</span> cat contacto.txt</p>
+          <ul class="contact-list">
+            <li><span class="contact-label">EMAIL</span> <a href="mailto:gmstecno@outlook.com">gmstecno@outlook.com</a></li>
+            <li><span class="contact-label">WHATSAPP</span> <a href="https://wa.me/50686991656" target="_blank" rel="noopener">+506 8699-1656</a></li>
+            <li><span class="contact-label">LINKEDIN</span> <a href="https://www.linkedin.com/in/greivin-mora01/" target="_blank" rel="noopener">linkedin.com/in/greivin-mora01</a></li>
+            <li><span class="contact-label">GITHUB</span> <a href="https://github.com/Greck011" target="_blank" rel="noopener">github.com/Greck011</a></li>
+            <li><span class="contact-label">UBICACIÓN</span> San Ramón, Alajuela</li>
+          </ul>
+          <p class="boot-line static-line"><span class="prompt">greivin@gmstecno</span><span class="colon">:~$</span> <span class="cursor-blink">▊</span></p>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+        <label for="email">Correo</label>
+        <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" rows="5" placeholder="Contame sobre tu proyecto o vacante..." required></textarea>
+
+        <button type="submit" class="btn-primary">
+          <span>enviar_mensaje()</span>
+        </button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>GmsTecno © 2026 — Greivin Mora Solórzano</span>
+    <span class="footer-status"><span class="pulse-dot small"></span> sistema en línea</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
