@@ -160,8 +160,7 @@ const projects = {
       "images/projects/PGP/PGP_3.png",
       "images/projects/PGP/PGP_4.png",
       "images/projects/PGP/PGP_5.png",
-      "images/projects/PGP/PGP_6.png",
-      "images/projects/PGP/PGP_7.png"
+      "images/projects/PGP/PGP_6.png"
     ]
   },
   sysmaint: {
